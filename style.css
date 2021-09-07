@@ -1,14 +1,46 @@
 /* Type your code here */
+.logo {
+	float: right; }
+.container {
+	margin-left: 50px;
+	font-family: sans-serif;
+}
+table {
+	background-color: white;
+	border-collapse: collapse;
+	width: 980px;
+	font-weight: bold;
+	font-size: 20px;
+}
+#row {
+	border-bottom: 1px solid gray;
+}
 
-
+td {
+	height: 40px;
+}
+.center {
+	text-align: center;
+}
+.title1 {
+	padding-top: 2rem;
+	font-weight: bolder;
+	font-size: 48px;
+	text-shadow: 0 0 6px gray;
+}
+.title2 {
+	font-weight: bold;
+	font-size: 30px;
+	color: gray;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
     flex-direction: row;
     align-content: flex-end;
 	position: relative;
-	top: 750px;
-	margin-left: 80px;
+	top: 500px;
+	margin-left: 10px;
 	font-size: 18px;
 	font-family: Nunito Sans;
     font-style: normal;
